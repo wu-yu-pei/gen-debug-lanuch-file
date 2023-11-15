@@ -1,0 +1,18 @@
+{
+	"configurations": [
+		{
+			"type": "node-terminal",
+			"name": "运行脚本: dev",
+			"request": "launch",
+			"command": "npm run dev",
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "node-terminal",
+			"name": "运行脚本: pro",
+			"request": "launch",
+			"command": "npm run pro",
+			"cwd": "${workspaceFolder}"
+		}
+	]
+}
